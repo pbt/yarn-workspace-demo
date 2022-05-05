@@ -1,0 +1,18 @@
+{
+  "name": "yarn-workspace-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:agadzik/yarn-workspace-demo.git",
+  "author": "agadzik <andrew.gadzik@vercel.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "a": "^2.1.2",
+    "b": "^2.0.1",
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.4"
+  }
+}
